@@ -245,8 +245,8 @@ if __name__ == '__main__':
     plt.plot(SNR_dB, H_x_total, label='Source Entropy')
     plt.plot(SNR_dB, H_y_x_total, label='Cond. Entropy')
     plt.plot(SNR_dB, MI_total, label='Mutual Information')
-    plt.xlabel("Entropies")
-    plt.ylabel("Eb/N0")
+    plt.xlabel("Eb/N0")
+    plt.ylabel("Entropies")
     plt.legend()
     plt.show()
 
