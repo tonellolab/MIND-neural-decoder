@@ -6,6 +6,9 @@ MIND: Maximum Mutual Information Based Neural Decoder : TO ADD
 
 If you use the repository for your experiments, please cite the paper.
 
+<img src="https://github.com/nuletizia/MIND-neural-decoder/blob/main/teaser.png" width=1000>
+
+
 The paper presents a neural decoding strategy that is based on the mutual information maximization, denoted as MIND.
 MIND is a simple feedforward neural network trained to estimate density-ratios and the mutual information. By design, it can provide estimates of the following quantities:
 - A-posteriori probabilities
@@ -15,7 +18,7 @@ MIND is a simple feedforward neural network trained to estimate density-ratios a
 - Conditional entropy
 - Mutual information
 
-The sample code is developed for binary modulation schemes but can easily be extended to M-PAM, M-QAM and more. Coding strategies such as repetition, hamming and convolutional codes are described in the original paper and can be implemented. MIND considers also channel non-linearities.
+The sample code is developed for the supervised approach (see the paper) and for binary modulation schemes but can easily be extended to M-PAM, M-QAM and more. Coding strategies such as repetition, hamming and convolutional codes are described in the original paper and can be implemented. MIND considers also channel non-linearities.
 
 Two noise options are available to train your own MIND model:
 - AWGN
