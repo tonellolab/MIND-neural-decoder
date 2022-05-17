@@ -2,7 +2,7 @@
 
 This repository contains the official TensorFlow implementation of the following paper:
 
-MIND: Maximum Mutual Information Based Neural Decoder : TO ADD
+MIND: Maximum Mutual Information Based Neural Decoder - https://arxiv.org/abs/2205.07061
 
 If you use the repository for your experiments, please cite the paper.
 
